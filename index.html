@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maximilian Lee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">ML</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#beyond">Beyond</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Open menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-bg-text" aria-hidden="true">MAX</div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Purdue University · Industrial Engineering · Class of 2030</p>
+      <h1 class="hero-name">Maximilian<br/><em>Lee</em></h1>
+      <p class="hero-sub">
+        Engineering student, researcher, and coder obsessed with making things faster, smarter, and more efficient —
+        from rockets to neural networks to bicycle drivetrains.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">IEEE Research Papers</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100<small>mi</small></span>
+          <span class="stat-label">Cycled Weekly</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">70K+</span>
+          <span class="stat-label">Photo Views / 90 Days</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">1570</span>
+          <span class="stat-label">SAT · 800 Math</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#research" class="btn btn-primary">See My Work</a>
+        <a href="mailto:maxseanlee@gmail.com" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-tape" aria-hidden="true">
+      <span>National Merit Finalist&nbsp;·&nbsp;</span>
+      <span>AP Scholar with Distinction&nbsp;·&nbsp;</span>
+      <span>ITE Python Certified&nbsp;·&nbsp;</span>
+      <span>AIME Qualifier&nbsp;·&nbsp;</span>
+      <span>NHS Member&nbsp;·&nbsp;</span>
+      <span>National Merit Finalist&nbsp;·&nbsp;</span>
+      <span>AP Scholar with Distinction&nbsp;·&nbsp;</span>
+      <span>ITE Python Certified&nbsp;·&nbsp;</span>
+      <span>AIME Qualifier&nbsp;·&nbsp;</span>
+      <span>NHS Member&nbsp;·&nbsp;</span>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="edu-bar">
+    <div class="edu-bar-inner">
+      <div class="edu-item">
+        <span class="edu-school">Purdue University</span>
+        <span class="edu-detail">B.S. Industrial Engineering · 2030</span>
+      </div>
+      <div class="edu-sep">→</div>
+      <div class="edu-item">
+        <span class="edu-school">McLean High School</span>
+        <span class="edu-detail">Advanced Studies Diploma · GPA 4.30W · June 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="section" id="research">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Research & Projects</p>
+        <h2 class="section-title">Building things that <em>matter</em></h2>
+      </div>
+
+      <div class="research-grid">
+
+        <div class="research-card research-card--featured">
+          <div class="rc-tag">Aerospace · Chemical · Industrial</div>
+          <h3 class="rc-title">High-Altitude Rocket & Air Quality System</h3>
+          <p class="rc-body">
+            Developed a rocket designed to reach a specified altitude, collect air quality samples mid-flight, and return to ground safely for real-world environmental analysis. IEEE paper authored.
+          </p>
+          <div class="rc-org">USC Discover Engineering · Summer 2025</div>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-tag">Computer · Mechanical · AI</div>
+          <h3 class="rc-title">AI Robotics — Facial Recognition & Maze Navigation</h3>
+          <p class="rc-body">
+            Conceived, programmed, and tested multiple robots to perform facial recognition and autonomous maze navigation using AI techniques.
+          </p>
+          <div class="rc-org">USC Discover Engineering · Summer 2025</div>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-tag">Biomedical · Electrical</div>
+          <h3 class="rc-title">Patient Monitoring Circuit with Diagnosis Logic</h3>
+          <p class="rc-body">
+            Built a patient monitoring system with embedded diagnosis logic implemented directly into circuit hardware, bridging electrical engineering and healthcare.
+          </p>
+          <div class="rc-org">USC Discover Engineering · Summer 2025</div>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-tag">Machine Learning · Finance</div>
+          <h3 class="rc-title">ML Stock Prediction: LSTM vs SVM vs Linear Regression</h3>
+          <p class="rc-body">
+            Under mentorship of a King's College London PhD scholar, compared three models for stock prediction. Evaluated performance using MSE, RMSE, and R² across real market data.
+          </p>
+          <div class="rc-org">Mentorship Program · Summer / Fall 2024</div>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-tag">Machine Learning · Computer Vision</div>
+          <h3 class="rc-title">Image Classification & Neural Network Fundamentals</h3>
+          <p class="rc-body">
+            Applied ML principles through interactive labs at NYU Tandon, producing real-world image classification models. Learned validation skills, neural network architecture basics.
+          </p>
+          <div class="rc-org">NYU Tandon School of Engineering · Summer 2024</div>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-tag">Civil · Environmental</div>
+          <h3 class="rc-title">Sustainable Windmill Energy System</h3>
+          <p class="rc-body">
+            Led a 5-person team to design and construct a functional windmill, exploring sustainable energy collection systems. IEEE research paper authored.
+          </p>
+          <div class="rc-org">USC Discover Engineering · Summer 2025</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS TICKER -->
+  <div class="skills-tape" aria-label="Technical skills">
+    <div class="skills-tape-inner">
+      <span>Python</span><span class="dot">·</span>
+      <span>Java</span><span class="dot">·</span>
+      <span>JavaScript</span><span class="dot">·</span>
+      <span>C++</span><span class="dot">·</span>
+      <span>HTML/CSS</span><span class="dot">·</span>
+      <span>Machine Learning</span><span class="dot">·</span>
+      <span>Neural Networks</span><span class="dot">·</span>
+      <span>Arduino</span><span class="dot">·</span>
+      <span>Autodesk Inventor</span><span class="dot">·</span>
+      <span>Unity</span><span class="dot">·</span>
+      <span>DaVinci Resolve</span><span class="dot">·</span>
+      <span>Tinkercad</span><span class="dot">·</span>
+      <span>PyCharm</span><span class="dot">·</span>
+      <span>EveryCircuit</span><span class="dot">·</span>
+      <span>Python</span><span class="dot">·</span>
+      <span>Java</span><span class="dot">·</span>
+      <span>JavaScript</span><span class="dot">·</span>
+      <span>C++</span><span class="dot">·</span>
+      <span>HTML/CSS</span><span class="dot">·</span>
+      <span>Machine Learning</span><span class="dot">·</span>
+      <span>Neural Networks</span><span class="dot">·</span>
+      <span>Arduino</span><span class="dot">·</span>
+      <span>Autodesk Inventor</span><span class="dot">·</span>
+      <span>Unity</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <section class="section section--light" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Work & Volunteering</p>
+        <h2 class="section-title">Teaching, building, <em>giving back</em></h2>
+      </div>
+
+      <div class="exp-list">
+
+        <div class="exp-item">
+          <div class="exp-left">
+            <span class="exp-date">Gr. 11–Present</span>
+            <span class="exp-type exp-type--paid">Paid</span>
+          </div>
+          <div class="exp-right">
+            <h3 class="exp-title">Coding Instructor — theCoderSchool</h3>
+            <p class="exp-body">
+              Teach 10+ elementary and middle school students coding fundamentals weekly. Design hour-long lesson plans in Scratch, Python, and JavaScript. Lead groups of 15–20 students as a summer program instructor. Recruited 5+ new employees to grow the business.
+            </p>
+            <div class="exp-meta">8 hrs/week · 30 hrs/week (summer) · 48 weeks</div>
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-left">
+            <span class="exp-date">Gr. 11–12</span>
+            <span class="exp-type exp-type--vol">Volunteer</span>
+          </div>
+          <div class="exp-right">
+            <h3 class="exp-title">Math Tutor & Food Bank — Lend A Hand</h3>
+            <p class="exp-body">
+              Tutored disadvantaged students in competition math (Algebra 1 through Pre-Calc). Distributed food and necessities face-to-face at a local food bank, extending dignity and mentorship to the local community.
+            </p>
+            <div class="exp-meta">5 hrs/week · 25 weeks</div>
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-left">
+            <span class="exp-date">Summer 2024</span>
+            <span class="exp-type exp-type--vol">Volunteer</span>
+          </div>
+          <div class="exp-right">
+            <h3 class="exp-title">AI Education Author — BranchOut! Innovator Program</h3>
+            <p class="exp-body">
+              Helped build a program-hosted website and authored accessible lessons teaching neural network concepts. Published at <a href="https://neurallab.vercel.app/" target="_blank" rel="noopener">neurallab.vercel.app</a>. Promoted open AI exploration among learners with no prior background.
+            </p>
+            <div class="exp-meta">20 hrs/week · 4 weeks</div>
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-left">
+            <span class="exp-date">Summer 2023</span>
+            <span class="exp-type exp-type--research">Research</span>
+          </div>
+          <div class="exp-right">
+            <h3 class="exp-title">Electrical Engineering — Johns Hopkins CTY</h3>
+            <p class="exp-body">
+              Deep dived into electromagnetism's real-world applications, physics of solar cells, and solid-state electronics. First residential academic experience — built independence alongside engineering foundations.
+            </p>
+            <div class="exp-meta">Johns Hopkins Center for Talented Youth</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BEYOND / HOBBIES -->
+  <section class="section" id="beyond">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Beyond the Lab</p>
+        <h2 class="section-title">How I <em>live</em></h2>
+      </div>
+
+      <div class="beyond-grid">
+
+        <div class="beyond-card">
+          <div class="beyond-icon">🚴</div>
+          <h3 class="beyond-title">Cycling</h3>
+          <p class="beyond-body">
+            100 miles a week, rain or shine. Self-taught to engineer speed through mechanical upgrades. Every ride is a new path, a new hill, a new playlist.
+          </p>
+          <span class="beyond-tag">8 hrs/week · Grades 9–12</span>
+        </div>
+
+        <div class="beyond-card">
+          <div class="beyond-icon">💪</div>
+          <h3 class="beyond-title">Calisthenics</h3>
+          <p class="beyond-body">
+            1,500+ pushups and 400+ pullups weekly. I design workout plans for friends and treat rep counts like engineering problems — always optimizing.
+          </p>
+          <span class="beyond-tag">8 hrs/week · Grades 10–12</span>
+        </div>
+
+        <div class="beyond-card">
+          <div class="beyond-icon">📷</div>
+          <h3 class="beyond-title">Photography</h3>
+          <p class="beyond-body">
+            I shoot what I notice — light, texture, quiet moments. Organized by emotion, not date. 70,000+ views in 90 days. I can get lost in images for hours.
+          </p>
+          <span class="beyond-tag">2 hrs/week · Grades 9–12</span>
+        </div>
+
+        <div class="beyond-card">
+          <div class="beyond-icon">🚣</div>
+          <h3 class="beyond-title">Rowing</h3>
+          <p class="beyond-body">
+            JV/Varsity at McLean Crew & TBC Racing. 30K+ meters in sync daily. Stopped after back injuries — but the discipline and respect for the water stayed.
+          </p>
+          <span class="beyond-tag">Grades 9–10 · McLean Crew Club</span>
+        </div>
+
+        <div class="beyond-card">
+          <div class="beyond-icon">📓</div>
+          <h3 class="beyond-title">Journaling</h3>
+          <p class="beyond-body">
+            Every night, all apps blocked except notes. I write to process what the day didn't give me time to understand — and re-read to see how my thinking has shifted.
+          </p>
+          <span class="beyond-tag">2 hrs/week · Grades 9–12</span>
+        </div>
+
+        <div class="beyond-card beyond-card--courses">
+          <h3 class="beyond-title">Current Coursework</h3>
+          <ul class="course-list">
+            <li>Differential Equations</li>
+            <li>Discrete Structures & Computer Organization</li>
+            <li>Advanced Programming</li>
+            <li>Physics C</li>
+            <li>Discrete Math</li>
+            <li>AI Programming Advanced</li>
+            <li>AP Government</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section class="awards-band">
+    <div class="container">
+      <p class="section-eyebrow" style="text-align:center; margin-bottom: 2rem;">Recognition</p>
+      <div class="awards-grid">
+        <div class="award-item">
+          <span class="award-name">National Merit Finalist</span>
+        </div>
+        <div class="award-item">
+          <span class="award-name">AP Scholar with Distinction</span>
+        </div>
+        <div class="award-item">
+          <span class="award-name">ITE Python Certification</span>
+          <span class="award-sub">Certiport</span>
+        </div>
+        <div class="award-item">
+          <span class="award-name">National Honor Society</span>
+        </div>
+        <div class="award-item">
+          <span class="award-name">Math Honor Society</span>
+        </div>
+        <div class="award-item">
+          <span class="award-name">AIME Qualifier</span>
+          <span class="award-sub">McLean Highlander Math League</span>
+        </div>
+        <div class="award-item">
+          <span class="award-name">ACSL Finalist</span>
+          <span class="award-sub">Intermediate Division</span>
+        </div>
+        <div class="award-item">
+          <span class="award-name">College Board National Recognition</span>
+          <span class="award-sub">School Recognition Award</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container contact-inner">
+      <h2 class="contact-title">Let's <em>connect</em></h2>
+      <p class="contact-sub">
+        I'm always up for research collaborations, interesting projects, or just a good conversation about engineering, AI, or the perfect bike setup.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:maxseanlee@gmail.com" class="contact-link">
+          <span class="contact-link-label">Email</span>
+          <span class="contact-link-val">maxseanlee@gmail.com</span>
+        </a>
+        <a href="tel:7037121540" class="contact-link">
+          <span class="contact-link-label">Phone</span>
+          <span class="contact-link-val">703-712-1540</span>
+        </a>
+        <a href="https://neurallab.vercel.app/" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-link-label">Project</span>
+          <span class="contact-link-val">neurallab.vercel.app</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>Maximilian Lee · Falls Church, VA</span>
+    <span>Purdue University · Industrial Engineering · 2030</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
